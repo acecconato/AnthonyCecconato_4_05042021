@@ -451,6 +451,13 @@ h4 {
     object-fit: cover
 }
 
+#portfolio img {
+    max-width: 320px;
+    max-height: 320px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
 #contact {
     padding: 0 10px
 }
