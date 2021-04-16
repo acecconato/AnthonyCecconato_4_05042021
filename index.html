@@ -23,17 +23,42 @@
 
     <!-- TODO: GSC/GA -->
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
+    <!-- ### STYLESHEET -->
+
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Et-line icons -->
+    <link rel="stylesheet" href="./assets/css/vendor/et-line.min.css">
+
+    <!-- Homepage.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
 
-    <!-- Javascript -->
-    <script src="./assets/js/jquery-2.1.0.js"></script>
-    <script src="./assets/js/bootstrap.js"></script>
-    <script src="./assets/js/blocs.js"></script>
-    <script src="./assets/js/jquery.touchSwipe.js" defer></script>
-    <script src="./assets/js/gmaps.js"></script>
+    <!-- Font-awesome 4.7.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+          crossorigin="anonymous"/>
+
+    <!-- ### JAVASCRIPT -->
+
+    <!-- jQuery 2.1.0 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"
+            integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA=="
+            crossorigin="anonymous" defer></script>
+
+    <!-- Bootstrap 3.3.7 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous" defer></script>
+
+    <!-- Bloc.min.js -->
+    <script src="./assets/js/vendor/bloc.min.js" defer></script>
+
+    <!-- jQuery TouchSwipe 1.6.18 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"
+            integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg=="
+            crossorigin="anonymous" defer></script>
 </head>
 <body>
 
@@ -74,7 +99,7 @@
         <div class="container bloc-lg">
             <div class="row tight-width-whitespace">
                 <div class="col-sm-12 text-center">
-                    <img src="./assets/img/logo.png" class="center-block image-resize-mode" width="100"
+                    <img src="./assets/img/logo.png" loading="lazy" class="center-block image-resize-mode" width="100"
                          alt="La chouette agence, agence web paris, création logo paris">
 
                     <h1 class="text-center hero-bloc-text tc-white ">
@@ -173,7 +198,7 @@
         </div>
     </section>
 
-    <section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+    <section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="portfolio">
         <div class="container bloc-lg">
 
             <div class="row">
@@ -184,11 +209,11 @@
 
             <div class="row tight-width-whitespace portfolio-row">
                 <article class="col-sm-6">
-                    <a href="#" data-lightbox="./assets/img/1.jpg" data-gallery-id="gallery-1"
-                       data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-                            src="./assets/img/1.jpg"
-                            alt="paris web design logo agence web meilleure agence et refonte site web journal"
-                            class="img-responsive portfolio-thumb"></a>
+                    <a href="#" data-lightbox="./assets/img/articles/1.jpg" data-gallery-id="gallery-1"
+                       data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+                        <img src="./assets/img/articles/1.jpg" loading="lazy"
+                             alt="paris web design logo agence web meilleure agence et refonte site web journal"
+                             class="img-responsive portfolio-thumb"></a>
                     <h3 class="mg-md text-center">
                         Refonte d'un site web pour un journal local
                     </h3>
@@ -198,10 +223,10 @@
                 </article>
 
                 <article class="col-sm-6">
-                    <a href="#" data-lightbox="./assets/img/2.jpg" data-gallery-id="gallery-1"
-                       data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-                            src="./assets/img/2.jpg" class="img-responsive portfolio-thumb"
-                            alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"></a>
+                    <a href="#" data-lightbox="./assets/img/articles/2.jpg" data-gallery-id="gallery-1"
+                       data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+                        <img src="./assets/img/articles/2.jpg" class="img-responsive portfolio-thumb" loading="lazy"
+                             alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"></a>
                     <h3 class="mg-md text-center">
                         Création d'un site web pour photographes
                     </h3>
@@ -211,10 +236,10 @@
                 </article>
 
                 <article class="col-sm-6">
-                    <a href="#" data-lightbox="./assets/img/3.jpg" data-gallery-id="gallery-1"
-                       data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img
-                            src="./assets/img/3.jpg" class="img-responsive portfolio-thumb"
-                            alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"></a>
+                    <a href="#" data-lightbox="./assets/img/articles/3.jpg" data-gallery-id="gallery-1"
+                       data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+                        <img src="./assets/img/articles/3.jpg" class="img-responsive portfolio-thumb" loading="lazy"
+                             alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"></a>
                     <h3 class="mg-md text-center">
                         Création d'un site internet pour un voyageur
                     </h3>
@@ -225,10 +250,10 @@
                 </article>
 
                 <article class="col-sm-6">
-                    <a href="#" data-lightbox="./assets/img/4.jpg" data-gallery-id="gallery-1"
-                       data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img
-                            src="./assets/img/4.jpg" class="img-responsive portfolio-thumb"
-                            alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"></a>
+                    <a href="#" data-lightbox="./assets/img/articles/4.jpg" data-gallery-id="gallery-1"
+                       data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+                        <img src="./assets/img/articles/4.jpg" class="img-responsive portfolio-thumb" loading="lazy"
+                             alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"></a>
                     <h3 class="mg-md text-center">
                         Conception d'un site pour une agence de mariage
                     </h3>
