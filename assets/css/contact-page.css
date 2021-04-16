@@ -15,6 +15,13 @@ ul > li {
     list-style-type: none
 }
 
+a:focus,
+a:active,
+button:focus,
+button:active {
+    outline: 4px solid #f00;
+}
+
 a, button {
     transition: all .3s ease-in-out;
     outline: 0
@@ -193,10 +200,6 @@ a:hover {
 .btn-d, .btn-d:focus, .btn-d:hover {
     color: #fff;
     background: rgba(0, 0, 0, .3)
-}
-
-button {
-    outline: 0 !important
 }
 
 a[data-lightbox] {
