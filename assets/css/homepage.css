@@ -43,9 +43,11 @@ a, button {
     outline: 0
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer
+a:focus,
+a:active,
+button:focus,
+button:active {
+    outline: 4px solid #f00;
 }
 
 .bloc {
@@ -229,10 +231,6 @@ a:hover {
 .btn-d, .btn-d:focus, .btn-d:hover {
     color: #fff;
     background: rgba(0, 0, 0, .3)
-}
-
-button {
-    outline: 0 !important
 }
 
 .btn-rd {
