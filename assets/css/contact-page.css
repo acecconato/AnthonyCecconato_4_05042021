@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
+nav ul li:hover {
+    text-decoration: underline;
+}
+
 ul {
     padding: 0
 }
@@ -15,12 +19,20 @@ ul > li {
     list-style-type: none
 }
 
+#accessibility-section,
+caption {
+    color: #333;
+}
+
 a:focus,
 a:active,
 button:focus,
-button:active {
+button:active,
+#nav-toggle:focus,
+#nav-toggle:active {
     outline: 4px solid #f00;
 }
+
 
 a, button {
     transition: all .3s ease-in-out;
@@ -28,8 +40,26 @@ a, button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer
+}
+
+.scrollToTop {
+    opacity: 1;
+    position: fixed;
+    bottom: 2.5%;
+    right: 2.5%;
+    z-index: 10000;
+    font-size: 3rem;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 50%;
+}
+
+.scrollToTop:focus,
+.scrollToTop:hover {
+    background-color: black !important;
+    color: white !important;
 }
 
 .bloc {
@@ -88,7 +118,7 @@ a:hover {
 }
 
 .d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-lg, .d-bloc a .icon-md, .d-bloc a .icon-sm, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
-    color: rgba(255, 255, 255, .6)
+    color: black;
 }
 
 .d-bloc .a-btn:hover, .d-bloc .navbar a:hover, .d-bloc .navbar-brand:hover, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-sm, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover {
@@ -137,7 +167,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 44px
 }
@@ -166,7 +196,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px
+    font-size: 1.6rem;
 }
 
 .nav > li a:focus, .nav > li a:hover {
@@ -217,7 +247,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
+    font-size: 3.2rem;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -248,13 +278,19 @@ a[data-lightbox]:hover img {
     max-width: 1000px
 }
 
+.pl-base {
+    padding-left: 15px;
+}
+
 .hero-bloc-text {
     font-size: 3.2rem
 }
 
 p {
-    font-size: 11px
+    font-size: 1.4rem;
 }
+
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -262,7 +298,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Open Sans", serif
 }
 
@@ -271,7 +307,7 @@ p {
     color: #fff !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700
 }
 
@@ -281,12 +317,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 1.4em
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #000
@@ -333,6 +369,18 @@ footer .row {
     padding-left: 10px
 }
 
+footer ul li a {
+    color: darkblue;
+}
+
+footer ul li i {
+    color: black;
+}
+
+.black {
+    color: black!important;
+}
+
 .bgc-white {
     background-color: #fff
 }
@@ -342,12 +390,12 @@ footer .row {
 }
 
 .tc-white {
-    color: #f3976c !important
+    color: black !important
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #fff !important
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -476,6 +524,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 0
 }
 
+#bloc-6 p {
+    font-size: 1.8rem;
+}
+
 @media all and (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -515,5 +567,10 @@ h1, h2, h3, h4, h5, h6, p {
         flex-direction: row;
         margin-left: 0;
         margin-right: 0
+    }
+
+    table {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

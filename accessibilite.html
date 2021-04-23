@@ -6,14 +6,14 @@
 
     <link rel="icon" type="image/jpg" href="favicon.jpg">
 
-    <title>Contactez-nous</title>
+    <title>Page d'accessibilité</title>
     <meta name="description"
-          content="Contactez-nous et obtenez un devis rapidement. La Chouette Agence vous propose ses services de création et refonte de site internet, packaging etc.">
+          content="Vous retrouverez ici toutes les informations relatives à l'accessibilité du site internet.">
 
     <link rel="canonical" href="https://dw04.anthony-cecconato.fr/after/contactez-nous.html">
 
     <!-- OpenGraph  -->
-    <meta property="og:title" content="Contactez-nous">
+    <meta property="og:title" content="Page d'accessibilité">
     <meta property="og:type" content="website">
     <meta property="og:image" content="././assets/img/logo.png">
     <meta property="og:url" content="https://dw04.anthony-cecconato/after/contactez-nous.html">
@@ -30,7 +30,7 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Contact-page.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/contact-page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/accessibility.css">
 
     <!-- Font-awesome 4.7.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -86,7 +86,7 @@
                            accesskey="h">Accueil</a></li>
                     <li><a href="contactez-nous.html" aria-label="Naviguer vers la page de contact"
                            accesskey="c">Contactez-nous</a></li>
-                    <li><a href="accessibilite.html" aria-label="Naviguer vers la page d'accessibilité"
+                    <li><a href="contactez-nous.html" aria-label="Naviguer vers la page d'accessibilité"
                            accesskey="a">Accessibilité</a></li>
                 </ul>
             </div>
@@ -101,68 +101,92 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="text-center hero-bloc-text tc-white" id="main-title">
-                        Contactez-nous, et parlons web design!
+                        Nos raccourcis d'aide à la navigation
                     </h1>
-                    <p class="text-center mg-lg tc-white tight-width-whitespace">
-                        Nous sommes ravis que vous souhaitiez collaborer avec notre agence. Parlez-nous de votre projet
-                        en complétant le formulaire ci-dessous.
-                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bloc bgc-white l-bloc"
-             id="contact-form"
-             aria-label="Formulaire de contact"
-    >
+    <section class="bloc l-bloc"
+             id="accessibility-section">
 
         <div class="container bloc-lg">
             <div class="row">
-                <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12">
+                    <h2>Structure du site</h2>
+                    <p>Le site est divisé en 3 rubriques accessibles depuis le menu de navigation principal :</p>
+                    <ul class="pl-base">
+                        <li>Page d'accueil</li>
+                        <li>Page de contact</li>
+                        <li>Page d'accessibilité</li>
+                    </ul>
 
-                    <form method="post" action="#" id="form_1">
-                        <div class="form-group">
-                            <label for="name">
-                                Nom
-                            </label>
-                            <input id="name" class="form-control" required>
-                        </div>
 
-                        <div class="form-group">
-                            <label for="email">
-                                Adresse email
-                            </label>
-                            <input id="email" class="form-control" type="email" required>
-                        </div>
+                    <h2>Aide a la navigation</h2>
+                    <p>Nous listons ci-dessous les composants présents sur le site et leur utilisation au clavier.</p>
+                    <table class="table table-striped">
+                        <caption class="sr-only">Tableau des accesskey du site</caption>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Accueil</th>
+                            <td>H</td>
+                        </tr>
 
-                        <div class="form-group">
-                            <label for="wheredidyoufindus">
-                                Comment nous avez-vous connu ?
-                            </label>
-                            <input class="form-control" type="email" required id="wheredidyoufindus">
-                        </div>
+                        <tr>
+                            <th scope="row">Contact</th>
+                            <td>C</td>
+                        </tr>
 
-                        <div class="form-group">
-                            <label for="message">
-                                Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-                            </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-                        </div>
+                        <tr>
+                            <th scope="row">Accessibilité</th>
+                            <td>A</td>
+                        </tr>
 
-                        <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-                            Envoyer
-                        </button>
-                    </form>
-                </div>
+                        <tr>
+                            <th scope="row">Revenir en haut de la page</th>
+                            <td>T</td>
+                        </tr>
+                        </tbody>
+                    </table>
 
-                <div class="col-sm-12 col-md-4">
-                    <address>
-                        <ul>
-                            <li><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></li>
-                            <li>2 place Sathonay, 69001 Lyon</li>
-                            <li>Ouvert de 9h à 18h, du lundi au vendredi</li>
-                        </ul>
-                    </address>
+                    <p>
+                        Ces combinaisons de touches ont été mises en place pour faciliter la
+                        navigation de nombreux internautes. Suivant votre navigateur, les
+                        combinaisons de touches varient.
+                    </p>
+
+                    <h2>Menu de navigation</h2>
+                    <p>
+                        Il peut être ouvert grâce au bouton « Hamburger » disponible en haut à
+                        droite de l'écran sur les mobiles et tablettes. Pour les écrans
+                        larges d'ordinateurs portables ou bureau, il est accessible via la
+                        barre de navigation au début de chaque page.
+                    </p>
+                    <p>
+                        Cet élément peut être atteint très rapidement avec un lecteur d’écran
+                        grâce au raccourci permettant de naviguer de région en région (touche
+                        de tabulation « TAB » de votre clavier).
+                    </p>
+                    <p>
+                        Une fois sélectionné (le bouton/lien adopte un cadre rouge), le menu
+                        peut ensuite s’ouvrir grâce à la touche ENTRÉE ou ESPACE.
+                    </p>
+
+                    <h2>Navigation générale</h2>
+                    <p>
+                        Tous les liens présents sur le site, ainsi que les formulaires et plus
+                        largement tous les éléments activables sont accessible grâce aux
+                        touches <kbd>TAB</kbd> et <kbd>Entrée</kbd> / <kbd>Espace</kbd> de
+                        votre clavier.
+                    </p>
+
+                    <h2>Navigation via le logo du site</h2>
+                    <p>
+                        En haut à gauche de chaque page (dans la barre de navigation), se
+                        trouve le logo du site. En cliquant dessus (via la souris ou le
+                        clavier) vous serait redirigé vers la page d'acceuil du site.
+                    </p>
                 </div>
             </div>
         </div>
