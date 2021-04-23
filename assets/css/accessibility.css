@@ -53,14 +53,14 @@ a:hover {
     right: 2.5%;
     z-index: 10000;
     font-size: 3rem;
-    color: #000 !important;
-    border: 2px solid #000 !important;
+    color: #000 ;
+    border: 2px solid #000 ;
     border-radius: 50%
 }
 
 .scrollToTop:focus, .scrollToTop:hover {
-    background-color: #000 !important;
-    color: #fff !important
+    background-color: #000 ;
+    color: #fff 
 }
 
 .bloc {
@@ -85,10 +85,10 @@ a:hover {
 }
 
 .bg-center, .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important
+    -webkit-background-size: auto ;
+    -moz-background-size: auto ;
+    -o-background-size: auto ;
+    background-size: auto 
 }
 
 .bg-repeat {
@@ -210,7 +210,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: 0 0 !important
+    background: 0 0 
 }
 
 .navbar-toggle .icon-bar {
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: 0 0 !important;
+    background: 0 0 ;
     display: block;
     padding: 14px 15px
 }
@@ -314,15 +314,15 @@ h3 {
 }
 
 h1 {
-    color: #333 !important
+    color: #333 
 }
 
 h4 {
-    color: #333 !important
+    color: #333 
 }
 
 .white {
-    color: #fff !important
+    color: #fff 
 }
 
 #contact {
@@ -363,7 +363,7 @@ footer ul li i {
 }
 
 .black {
-    color: #000 !important
+    color: #000 
 }
 
 .bgc-white {
@@ -375,17 +375,17 @@ footer ul li i {
 }
 
 .tc-white {
-    color: #000 !important
+    color: #000 
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #000 !important
+    color: #000 
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #fff !important
+    background: #c27956 ;
+    color: #fff 
 }
 
 .bg-dots-bg {
@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none !important
+    float: none 
 }
 
 .navbar.row {
