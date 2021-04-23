@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dw04.anthony-cecconato.fr/after/sitemap.xml
