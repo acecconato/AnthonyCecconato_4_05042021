@@ -87,8 +87,12 @@
 
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                 <ul class="site-navigation nav navbar-nav">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="contactez-nous.html">Contactez-nous</a></li>
+                    <li><a href="index.html" aria-label="Naviguer vers la page d'accueil"
+                           accesskey="h">Accueil</a></li>
+                    <li><a href="contactez-nous.html" aria-label="Naviguer vers la page de contact"
+                           accesskey="c">Contactez-nous</a></li>
+                    <li><a href="accessibilite.html" aria-label="Naviguer vers la page d'accessibilité"
+                           accesskey="a">Accessibilité</a></li>
                 </ul>
             </div>
         </nav>
@@ -324,6 +328,13 @@
             </div>
         </div>
     </section>
+
+    <a href="#"
+       accesskey="t"
+       tabindex="0"
+       class="btn btn-d scrollToTop"
+       aria-label="Retourner au début de la page"
+    ><span class="fa fa-chevron-up"></span></a>
 </main>
 
 <footer class="bloc bgc-atomic-tangerine d-bloc"

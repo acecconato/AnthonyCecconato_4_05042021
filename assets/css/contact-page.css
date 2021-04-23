@@ -19,10 +19,17 @@ ul > li {
     list-style-type: none
 }
 
+#accessibility-section,
+caption {
+    color: #333;
+}
+
 a:focus,
 a:active,
 button:focus,
-button:active {
+button:active,
+#nav-toggle:focus,
+#nav-toggle:active {
     outline: 4px solid #f00;
 }
 
@@ -35,6 +42,24 @@ a, button {
 a:hover {
     text-decoration: underline;
     cursor: pointer
+}
+
+.scrollToTop {
+    opacity: 1;
+    position: fixed;
+    bottom: 2.5%;
+    right: 2.5%;
+    z-index: 10000;
+    font-size: 3rem;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 50%;
+}
+
+.scrollToTop:focus,
+.scrollToTop:hover {
+    background-color: black !important;
+    color: white !important;
 }
 
 .bloc {
@@ -253,13 +278,19 @@ a[data-lightbox]:hover img {
     max-width: 1000px
 }
 
+.pl-base {
+    padding-left: 15px;
+}
+
 .hero-bloc-text {
     font-size: 3.2rem
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
+
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -536,5 +567,10 @@ h1, h2, h3, h4, h5, h6, p {
         flex-direction: row;
         margin-left: 0;
         margin-right: 0
+    }
+
+    table {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
