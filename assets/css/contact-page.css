@@ -105,7 +105,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url(http://dw04optim.anthony-cecconato.fr/assets/img/texture-paper.png);
+    background: url(https://dw04optim.anthony-cecconato.fr/assets/img/texture-paper.png);
     background-size: 280px 280px
 }
 
@@ -404,7 +404,7 @@ footer ul li i {
 }
 
 .bg-dots-bg {
-    background-image: url(http://dw04optim.anthony-cecconato.fr/assets/img/dots-bg.png)
+    background-image: url(https://dw04optim.anthony-cecconato.fr/assets/img/dots-bg.png)
 }
 
 .container {
