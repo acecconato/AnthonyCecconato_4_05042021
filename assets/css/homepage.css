@@ -8,7 +8,7 @@ body {
 }
 
 nav ul li:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 blockquote {
@@ -47,13 +47,8 @@ a, button {
     outline: 0
 }
 
-a:focus,
-a:active,
-button:focus,
-button:active,
-#nav-toggle:focus,
-#nav-toggle:active {
-    outline: 4px solid #f00;
+#nav-toggle:active, #nav-toggle:focus, a:active, a:focus, button:active, button:focus {
+    outline: 4px solid red
 }
 
 a:hover {
@@ -68,15 +63,14 @@ a:hover {
     right: 2.5%;
     z-index: 10000;
     font-size: 3rem;
-    color: black ;
-    border: 2px solid black ;
-    border-radius: 50%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 50%
 }
 
-.scrollToTop:focus,
-.scrollToTop:hover {
-    background-color: black ;
-    color: white ;
+.scrollToTop:focus, .scrollToTop:hover {
+    background-color: #000;
+    color: #fff
 }
 
 .bloc {
@@ -101,10 +95,10 @@ a:hover {
 }
 
 .bg-b-edge, .bg-br-edge, .bg-center, .bg-l-edge, .bg-r-edge, .bg-repeat, .bg-t-edge {
-    -webkit-background-size: auto ;
-    -moz-background-size: auto ;
-    -o-background-size: auto ;
-    background-size: auto 
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto
 }
 
 .bg-repeat {
@@ -139,15 +133,15 @@ a:hover {
 }
 
 .d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-lg, .d-bloc a .icon-md, .d-bloc a .icon-sm, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
-    color: black;
+    color: #000
 }
 
 .d-bloc .a-btn:hover, .d-bloc .navbar a:hover, .d-bloc .navbar-brand:hover, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-sm, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1)
+    color: #fff
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1)
+    background: #fff
 }
 
 .l-bloc {
@@ -163,7 +157,7 @@ a:hover {
 }
 
 .l-bloc .a-btn:hover, .l-bloc .navbar a:hover, .l-bloc .navbar-brand:hover, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-sm, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1)
+    color: #000
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -186,7 +180,7 @@ a:hover {
 
 .row {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0
 }
 
 .navbar {
@@ -226,7 +220,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 1.6rem;
+    font-size: 1.6rem
 }
 
 .nav > li a:focus, .nav > li a:hover {
@@ -239,7 +233,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: 0 0 
+    background: 0 0
 }
 
 .navbar-toggle .icon-bar {
@@ -248,7 +242,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: 0 0 ;
+    background: 0 0;
     display: block;
     padding: 14px 15px
 }
@@ -280,69 +274,68 @@ a:hover {
 a[data-lightbox] {
     position: relative;
     display: block;
-    text-align: center;
+    text-align: center
 }
 
-/* MODAL LIGHTBOX (click on image) */
 a[data-lightbox] {
     position: relative;
     display: block;
-    text-align: center;
+    text-align: center
 }
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 3.2rem;
     width: 50px;
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: #fff;
     font-weight: 100;
     z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%)
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+    opacity: .6;
     -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
+    animation-fill-mode: none
 }
 
 #lightbox-modal {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 0;
+    margin: 0 auto 0
 }
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #fff;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 5px
 }
 
 .close-lightbox {
-    color: #FFF;
-    font-size: 3.0rem;
+    color: #fff;
+    font-size: 3rem;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -351,46 +344,43 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: .3
 }
 
-.close-lightbox:hover,
-.next-lightbox:hover,
-.prev-lightbox:hover {
-    opacity: 1.0;
-    color: #FFF;
+.close-lightbox:hover, .next-lightbox:hover, .prev-lightbox:hover {
+    opacity: 1;
+    color: #fff
 }
 
-.next-lightbox,
-.prev-lightbox {
-    font-size: 2.0rem;
+.next-lightbox, .prev-lightbox {
+    font-size: 2rem;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: .4
 }
 
 .next-lightbox {
     padding: 6px 8px 1px 13px;
-    right: 25px;
+    right: 25px
 }
 
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
-    left: 25px;
+    left: 25px
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 45px
 }
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0, 0, 0, .5);
-    background: none;
+    background: 0 0
 }
 
 .btn, a, h1, h2, h3, h4, h5, h6, p {
@@ -408,7 +398,7 @@ a[data-lightbox]:hover img {
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 1.4rem
 }
 
 .tight-width-whitespace {
@@ -423,7 +413,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #fff ;
+    color: #fff;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.6rem;
@@ -436,7 +426,7 @@ p {
 }
 
 #what-i-do a {
-    font-size: 1.6rem;
+    font-size: 1.6rem
 }
 
 h2 {
@@ -457,22 +447,20 @@ h3 {
     box-shadow: 0 0 0 #000
 }
 
-
-
 h1 {
-    color: #333 
+    color: #333
 }
 
 h4 {
-    color: #333 
+    color: #333
 }
 
 .white {
-    color: #fff 
+    color: #fff
 }
 
 .black {
-    color: black ;
+    color: #000
 }
 
 .portfolio-row {
@@ -492,7 +480,7 @@ h4 {
     max-width: 320px;
     max-height: 320px;
     object-fit: cover;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 #contact {
@@ -516,11 +504,11 @@ ul.social li {
 }
 
 ul.social li i {
-    color: black;
+    color: #000
 }
 
 footer h3 {
-    color: black;
+    color: #000;
     padding-left: 0
 }
 
@@ -529,7 +517,7 @@ footer .row {
 }
 
 footer ul li a {
-    color: darkblue;
+    color: #00008b
 }
 
 .black-background {
@@ -539,7 +527,7 @@ footer ul li a {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline 
+    text-decoration: underline
 }
 
 .bgc-white {
@@ -555,38 +543,38 @@ footer ul li a {
 }
 
 .tc-white {
-    color: white 
+    color: #fff
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: black 
+    color: #000
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 ;
-    color: #fff 
+    background: #c27956;
+    color: #fff
 }
 
 .ltc-white {
-    color: #fff 
+    color: #fff
 }
 
 .ltc-white:hover {
-    color: #ccc 
+    color: #ccc
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c 
+    color: #f3976c
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 
+    color: #c27956
 }
 
 .icon-dark-slate-blue {
-    color: #364577 ;
-    border-color: #364577 
+    color: #364577;
+    border-color: #364577
 }
 
 .bg-lines-h2-bg {
@@ -615,13 +603,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .b-parallax {
+    background-size: cover;
     background-attachment: scroll
 }
 
 .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none 
+    float: none
 }
 
 .navbar.row {
@@ -673,28 +662,28 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .a-block {
-    padding: 0 10px;
+    padding: 0 10px
 }
 
 .voffset {
-    margin-top: 5px;
+    margin-top: 5px
 }
 
 .icons {
-    font-size: 6rem;
+    font-size: 6rem
 }
 
 .bloc-lg {
-    padding: 40px 0;
+    padding: 40px 0
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 50px
 }
 
 .bloc-md, .bloc-sm {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
 }
 
 .voffset-md {
