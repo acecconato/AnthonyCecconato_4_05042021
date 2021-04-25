@@ -68,15 +68,15 @@ a:hover {
     right: 2.5%;
     z-index: 10000;
     font-size: 3rem;
-    color: black !important;
-    border: 2px solid black !important;
+    color: black ;
+    border: 2px solid black ;
     border-radius: 50%;
 }
 
 .scrollToTop:focus,
 .scrollToTop:hover {
-    background-color: black !important;
-    color: white !important;
+    background-color: black ;
+    color: white ;
 }
 
 .bloc {
@@ -101,10 +101,10 @@ a:hover {
 }
 
 .bg-b-edge, .bg-br-edge, .bg-center, .bg-l-edge, .bg-r-edge, .bg-repeat, .bg-t-edge {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important
+    -webkit-background-size: auto ;
+    -moz-background-size: auto ;
+    -o-background-size: auto ;
+    background-size: auto 
 }
 
 .bg-repeat {
@@ -239,7 +239,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: 0 0 !important
+    background: 0 0 
 }
 
 .navbar-toggle .icon-bar {
@@ -248,7 +248,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: 0 0 !important;
+    background: 0 0 ;
     display: block;
     padding: 14px 15px
 }
@@ -423,7 +423,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #fff !important;
+    color: #fff ;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.6rem;
@@ -460,19 +460,19 @@ h3 {
 
 
 h1 {
-    color: #333 !important
+    color: #333 
 }
 
 h4 {
-    color: #333 !important
+    color: #333 
 }
 
 .white {
-    color: #fff !important
+    color: #fff 
 }
 
 .black {
-    color: black !important;
+    color: black ;
 }
 
 .portfolio-row {
@@ -539,7 +539,7 @@ footer ul li a {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline !important
+    text-decoration: underline 
 }
 
 .bgc-white {
@@ -555,38 +555,38 @@ footer ul li a {
 }
 
 .tc-white {
-    color: white !important
+    color: white 
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: black !important
+    color: black 
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #fff !important
+    background: #c27956 ;
+    color: #fff 
 }
 
 .ltc-white {
-    color: #fff !important
+    color: #fff 
 }
 
 .ltc-white:hover {
-    color: #ccc !important
+    color: #ccc 
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c !important
+    color: #f3976c 
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important
+    color: #c27956 
 }
 
 .icon-dark-slate-blue {
-    color: #364577 !important;
-    border-color: #364577 !important
+    color: #364577 ;
+    border-color: #364577 
 }
 
 .bg-lines-h2-bg {
@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none !important
+    float: none 
 }
 
 .navbar.row {

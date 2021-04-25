@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://dw04.anthony-cecconato.fr/after/sitemap.xml
+Sitemap: https://dw04optim.anthony-cecconato.fr/sitemap.xml
